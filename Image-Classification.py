@@ -43,7 +43,7 @@ elif data_question == 2:
     file1_name = 'dough.*'
 else:
     input_invalid()
-input_invalid
+
 
 # Converts an image to grey scale image array for processing.
 def img_config(path, maxsize):
