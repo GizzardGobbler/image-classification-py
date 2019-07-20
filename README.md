@@ -20,7 +20,7 @@ from PIL import Image
 ```
 ## Set Up
 
-You must change the string 'PATH TO DATA SET' on lines 79 and 83 to the path were the project folder was saved.
+You must change the string 'PATH TO DATA SET' on lines 79 and 83 to the path inside of the project folder.
 
 ```
 # Sets location of training data
