@@ -76,11 +76,11 @@ maxsize = 100, 100  # Maximum size of training and testing data
 
 # Sets location of training data
 (train_images, train_labels) = load_image_dataset(
-    '/home/idstudent/PycharmProjects/TrestanSimon/FinalProject/' + dataset, maxsize)
+    'PATH TO DATA SET' + dataset, maxsize)
 
 # Sets location of testing data
 (test_images, test_labels) = load_image_dataset(
-    '/home/idstudent/PycharmProjects/TrestanSimon/FinalProject/' + dataset + '/test_set', maxsize)
+    'PATH TO DATA SET' + dataset + '/test_set', maxsize)
 
 print(train_labels)  # Prints training labels as  0s and 1s
 
